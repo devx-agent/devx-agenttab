@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+test = "test"
+script = "script"
+libs = ["lib"]
+solc_version = "0.8.24"
+optimizer = true
+optimizer_runs = 500
+evm_version = "cancun"
+
+[rpc_endpoints]
+hashkey_testnet = "https://testnet.hsk.xyz"
+hashkey = "https://mainnet.hsk.xyz"

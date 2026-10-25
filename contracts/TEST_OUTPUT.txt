@@ -1,0 +1,13 @@
+[PASS] testFuzz_neverPaysMoreThanDeposit(uint128,uint128,uint128) (runs: 256, μ: 408375, ~: 403595)
+[PASS] test_batch() (gas: 546875)
+[PASS] test_onlyPayeeRedeems() (gas: 264114)
+[PASS] test_openRedeemIncremental() (gas: 458238)
+[PASS] test_reclaimAfterExpiry() (gas: 410741)
+[PASS] test_redeemAndClose() (gas: 402499)
+[PASS] test_rejectsCrossTabReplay() (gas: 465671)
+[PASS] test_rejectsOverDeposit() (gas: 270570)
+[PASS] test_rejectsWrongSigner() (gas: 275258)
+[PASS] test_topUpExtends() (gas: 382201)
+Suite result: ok. 10 passed; 0 failed; 0 skipped; finished in 23.33ms (30.42ms CPU time)
+# pass 5
+# fail 0

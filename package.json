@@ -1,0 +1,17 @@
+{
+  "name": "hashkey-agenttab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AgentTab: pay-per-request A2A settlement for AI agents on HashKey Chain (HTTP 402 + EIP-712 vouchers + HSP top-ups)",
+  "scripts": {
+    "test:contracts": "cd contracts && forge test",
+    "test:hsp": "node --test test/",
+    "demo": "node demo/local-e2e.mjs",
+    "gateway": "node gateway/server.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.57.11"
+  }
+}
