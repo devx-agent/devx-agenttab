@@ -1,0 +1,11 @@
+This is AgentTab: pay-per-request settlement between AI agents, on HashKey Chain. Built for the Agent Payments and A2A Settlement track.
+
+Agents pay each other for every API call — fractions of a cent, thousands of times. One on-chain transfer per call is too slow, and the gas dwarfs the payment. A checkout per call is worse.
+
+AgentTab opens one tab — an escrow in USDC on HashKey Chain. After that, every call is paid with an off-chain EIP-712 voucher carrying the cumulative amount owed. Signing is free and instant.
+
+Whenever it likes, the service redeems the latest voucher — settling any number of calls, from any number of clients, in a single transaction.
+
+Here's the real thing. We deploy the contract, start the paid service, which serves live HashKey mainnet data. An unpaid call gets a 402. Then 25 paid calls go through. A replayed old voucher is rejected. And all 25 settle in one transaction: two on-chain transactions for the agent, one for the service.
+
+Vouchers can never exceed the deposit, can't be replayed, and the signing key holds no funds. Humans top agents up through HSP. Code and the deployed contract are linked below. Thanks for watching.

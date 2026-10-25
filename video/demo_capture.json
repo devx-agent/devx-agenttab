@@ -1,0 +1,30 @@
+[
+{
+"t": 1.83,
+"line": "AgentTab 0xe7f1725e7734ce288f8367e1bb143e90bb3f0512"
+},
+{
+"t": 1.83,
+"line": "mUSD     0x5fbdb2315678afecb367f032d93f642f64180aa3"
+},
+{
+"t": 1.84,
+"line": "unpaid call -> 402 payment_required"
+},
+{
+"t": 9.32,
+"line": "25 paid calls OK; last response: {\"chainId\":177,\"block\":\"29309325\",\"timestamp\":1792965785,\"txCount\":1,\"gasPriceGwei\":\"500.001\",\"baseFeeGwei\":\"500\"}"
+},
+{
+"t": 9.33,
+"line": "replayed old voucher -> 402 voucher_increment_below_price"
+},
+{
+"t": 9.44,
+"line": "settled 1 tab(s) in 1 tx 0x3d5b943cbd25409642b6bd442f83dbaee0be1b57330a0292a446acae12f0619b (success); service earned 0.25 mUSD for 25 calls; on-chain txs by agent: 2 (approve+openTab)"
+},
+{
+"t": 9.44,
+"line": "tab #1 remaining 0.75 mUSD"
+}
+]
