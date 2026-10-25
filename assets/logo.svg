@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="AgentTab">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B8DEF"/>
+      <stop offset="1" stop-color="#17C3B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="#0B1020"/>
+  <rect x="96" y="150" width="320" height="212" rx="28" fill="none" stroke="url(#g)" stroke-width="18"/>
+  <!-- a "tab" sticking out -->
+  <path d="M176 150 v-40 a16 16 0 0 1 16-16 h128 a16 16 0 0 1 16 16 v40" fill="none" stroke="url(#g)" stroke-width="18" stroke-linecap="round"/>
+  <!-- voucher ticks: many small marks -> one big arrow (batch settle) -->
+  <g fill="url(#g)">
+    <circle cx="148" cy="212" r="10"/><circle cx="148" cy="256" r="10"/><circle cx="148" cy="300" r="10"/>
+  </g>
+  <path d="M196 256 h150 m0 0 l-34 -30 m34 30 l-34 30" fill="none" stroke="url(#g)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

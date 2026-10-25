@@ -1,7 +1,7 @@
 AgentTab 0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
 mUSD     0x5fbdb2315678afecb367f032d93f642f64180aa3
 unpaid call -> 402 payment_required
-25 paid calls OK; last response: {"chainId":177,"block":"29308806","timestamp":1792964747,"txCount":1,"gasPriceGwei":"500.001","baseFeeGwei":"500"}
+25 paid calls OK; last response: {"chainId":177,"block":"29309228","timestamp":1792965591,"txCount":1,"gasPriceGwei":"500.001","baseFeeGwei":"500"}
 replayed old voucher -> 402 voucher_increment_below_price
 settled 1 tab(s) in 1 tx 0x3d5b943cbd25409642b6bd442f83dbaee0be1b57330a0292a446acae12f0619b (success); service earned 0.25 mUSD for 25 calls; on-chain txs by agent: 2 (approve+openTab)
 tab #1 remaining 0.75 mUSD
